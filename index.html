@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+  
+   <style>
+   
+   btn-animated { animation: pulse 1s infinite; } @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+    .encouragement {
+      text-align: center;
+      margin-top: 2rem;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="text-center my-4">1st Edition- Quizzify Leaderboard</h1>
+
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Rank</th>
+          <th scope="col">Name</th>
+          <th scope="col">Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Anon</td>
+          <td>67%</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Lil Marthesh</td>
+          <td>52%</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Mercy</td>
+          <td>47%</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Lolade </td>
+          <td>45%</td>
+        </tr>
+        
+        <tr>
+          <td>5</td>
+          <td>Kl Wale</td>
+          <td>42%</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Rebecca</td>
+          <td>42%</td>
+        </tr>
+        
+        <tr>
+          <td>7</td>
+          <td>Abass</td>
+          <td>40%</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Omolara</td>
+          <td>35%</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Ej Sharo</td>
+          <td>35%</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>K.A.M</td>
+          <td>32%</td>
+        </tr>
+        <!-- Repeat the above <tr> block for other usernames -->
+        <!-- Total of 15 usernames -->
+      </tbody>
+    </table>
+    <a href="solution-list.html" class="btn btn-dark btn-animated">Go to Solution</a>
+    
+    <p class="encouragement">Congratulations to all participants for their dedication and effort!</p>
+    
+    
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
